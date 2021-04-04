@@ -9,6 +9,8 @@ setuptools.setup(
     version=version,
     install_requires=[
         'odoo13-addon-base_maintenance',
+        'odoo13-addon-maintenance_equipment_contract',
+        'odoo13-addon-maintenance_equipment_custom_info',
         'odoo13-addon-maintenance_equipment_hierarchy',
         'odoo13-addon-maintenance_equipment_scrap',
         'odoo13-addon-maintenance_equipment_sequence',
@@ -20,6 +22,7 @@ setuptools.setup(
         'odoo13-addon-maintenance_project_plan',
         'odoo13-addon-maintenance_request_sequence',
         'odoo13-addon-maintenance_request_stage_transition',
+        'odoo13-addon-maintenance_team_hierarchy',
         'odoo13-addon-maintenance_timesheet',
     ],
     classifiers=[
